@@ -1,0 +1,569 @@
+#nav {
+    max-width: 400px;
+    height: auto;
+    padding-left: 120px;
+}
+.font-size {
+    font-size: 0.9rem;
+}
+#left,#left1{
+    font-weight: bold;
+    padding-left: 50px;
+}
+.rounded {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#bg {
+    background-image: url('./../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+}
+.single {
+    width: 100%;
+    height: auto;
+    scale: 0.9;
+}
+#top {
+    margin-top: 7%;
+}
+.size {
+    font-size: 2.6rem;
+    padding-left: 90px;
+    font-weight: 500;
+}
+.size1 {
+    font-size: 3.6rem;
+    text-align: justify;
+    padding-left: 90px;
+}
+#blu1 {
+    color: blue;
+}
+#btn {
+    max-width: 550px;
+    height: 60px;
+    border-radius: 20px;
+}
+#bg1 {
+    background-image: url('./../images/thirukkuralbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+}
+#thiru {
+    font-weight: bolder;
+    text-align: center;
+    background: linear-gradient(to right, red, brown, rgb(86, 6, 6)); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+#thiru1 {
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 46%;
+}
+#bg2{
+    background-image: url('./../images/threebg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+#our{
+    text-align: center;
+    color: rgb(29, 103, 222);
+}
+#our1{
+    text-align: center;
+}
+#check{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.8;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+#fracture{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.7;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+#blood{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.7;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-top: 60%;
+}
+#bg3{
+    background-image: url('./../images/bg3.jpg');
+    margin-top: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+#choose{
+    font-size: 45px;
+}
+#choose1{
+    font-size: 25px;
+}
+.col-xl-6 .card{
+    height: 140px;
+}
+#card:hover{
+    height: 140px;
+    border-radius: 60px;
+    background-color: rgb(6, 2, 39);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+#bg4{
+    background-image: url('./../images/fourbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+#about{
+    font-size: 40px;
+    font-weight: bold;
+}
+#aboutimg{
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+}
+#abouttxt{
+    font-size:20px;
+}
+#btn1{
+    max-width: 280px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 40%;
+}
+#grid1{
+    background-image: url('./../images/one.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 650px;
+}
+#grid2{
+    background-image: url('./../images/two.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+#nums{
+    font-size: xx-large;
+    font-weight: bold;
+}
+#nums1{
+    font-size: xx-large;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+#nums2{
+    font-size: xx-large;
+    padding-left: 40%;
+    padding-top: 30px;
+}
+#touch1{
+    font-size: 40px;
+}
+#forms{
+    font-size: x-large;
+}
+#fname,#lname,#email,#phone,#address{
+    background: transparent;
+    border-color: black;
+}
+#address{
+    height: 150px;
+}
+#btns{
+    margin-top: 30px;
+    color: black;
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 30px;
+    float: inline-end;
+}
+#bg5{
+    background-image: url('./../images/threebg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    object-fit: cover;
+}
+#mission{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#mission1{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bttn{
+    background-color: rgb(13, 84, 237);
+    border-radius: 30px;
+}
+#border{
+    box-shadow: 3px 5px 5px 3px gray;
+    border-radius: 30px;
+}
+#bg6{
+    background-image: url('./../images/foot.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+#foots{
+    padding-top:17%;
+    padding-left: 40px;
+}
+.foot{
+    font-weight: bold;
+    font-size: large;
+}
+#foots1{
+   margin-left:25%;
+    margin-top: 15%;
+}
+#lal{
+    margin-top: 14%;
+    width:250px;
+    height:150px;
+}
+#foots2{
+    padding-top: 5%;
+    text-align: center;
+}
+#log{
+    padding-top: 70px;
+    padding-left: 10px;
+}
+#cont{
+    padding-top: 20%;
+    font-weight: bold;
+    padding-left: 60px;
+}
+#rights,#soft{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#soft{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: end;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 0.8rem;
+    }
+    #nav {
+        max-width: 150px;
+        padding-left: 0;
+    }
+    #left{
+        padding-left: 0;
+        font-weight: 0;
+    }
+    #left1{
+        padding-left: 0;
+        font-weight: 0;
+        padding-bottom: 35px;
+    }
+    #left2{
+        padding-left: 0;
+        font-weight: 0;
+    }
+    .size {
+        font-size: 1.5rem;
+        padding-left: 0;
+    }
+    .size1 {
+        font-size: 2rem;
+        padding-left: 0;
+    }
+    #thiru1 {
+        margin-left: 0;
+    }
+    #bg {
+        min-height: 500px;
+    }
+    #check, #fracture, #blood {
+        width: 180px;
+        height: 150px;
+    }
+    #bg3 {
+        height: 1500px;
+    }
+    #grid1{
+        height: auto;
+    }
+    #grid2{
+        height: auto;
+    }
+    #nums{
+        font-size: large;
+        font-weight: bold;
+    }
+    #nums1{
+        font-size: large;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #nums2{
+        font-size: large;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #address{
+        height: auto;
+    }
+    #btns{
+        margin-top: 10px;
+        color: black;
+        width: 180px;
+        height: auto;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 30px;
+    }
+    .col-xl-6 .card{
+        height: auto;
+    }
+    #bg6 {
+        background-size: cover, cover;
+        background-position: top, top;
+        width: auto;
+        height: auto;
+    }
+
+    #foots {
+        padding-top: 10%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .foot {
+        font-size: medium;
+    }
+
+    #foots1 {
+        padding-left: 0;
+        width: 200px;
+        height: 120px;
+    }
+
+    #foots2 {
+        padding-top: 10%;
+        font-size: small;
+    }
+
+    #log {
+        padding-top: 20px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #cont {
+        padding-top: 15%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    #rights,
+    #soft {
+        font-size: medium;
+        text-align: center;
+    }
+    #lal{
+        margin-top: 0;
+        width:150px;
+        height:auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    #check, #fracture, #blood {
+        width: 250px;
+        height: 250px;
+    }
+    #left1{
+        padding-left: 0;
+        font-weight: 0;
+    }
+    #address{
+        height: auto;
+    }
+    #btns{
+        margin-top: 10px;
+        color: black;
+        width: 180px;
+        height: auto;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 30px;
+    }
+    .col-xl-6 .card{
+        height: auto;
+    }
+    #lal{
+        margin-top: 0;
+    }
+    #bg6 {
+        background-size: cover, cover;
+        background-position: top, top;
+        width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 992px) {
+    #check, #fracture, #blood {
+        width: 200px;
+        height: 200px;
+    }
+    #blood {
+        margin-top: 5%;
+    }
+    #left1{
+        padding-left: 0;
+        font-weight: 0;
+    }
+    #address{
+        height: auto;
+    }
+    #btns{
+        margin-top: 10px;
+        color: black;
+        width: 180px;
+        height: auto;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 30px;
+    }
+    .col-xl-6 .card{
+        height: auto;
+    }
+    #lal{
+        margin-top: 0;
+        width:150px;
+        height:auto;
+    }
+    #bg6 {
+        background-size: cover, cover;
+        background-position: top, top;
+        width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 576px) {
+    #check, #fracture, #blood {
+        width: 150px;
+        height: 150px;
+    }
+    #bg3 {
+        height: 1500px;
+    }
+    #blood {
+        margin-top: 0;
+    }
+    #left1{
+        padding-left: 0;
+        font-weight: 0;
+    }
+    #address{
+        height: auto;
+    }
+    #btns{
+        margin-top: 10px;
+        color: black;
+        width: 180px;
+        height: auto;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 30px;
+    }
+    .col-xl-6 .card{
+        height: auto;
+    }
+    #lal{
+        margin-top: 0;
+        width:150px;
+        height:auto;
+    }
+    #bg6 {
+        background-size: cover, cover;
+        background-position: top, top;
+        width: auto;
+        height: auto;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    #bg6 {
+        background-size: 100% 50%, 100% 50%;
+        background-position: top, center;
+    }
+
+    #foots {
+        padding-top: 15%;
+        padding-left: 20px;
+    }
+
+    .foot {
+        font-size: larger;
+    }
+
+    #foots1 {
+        width: 250px;
+        height: 150px;
+    }
+
+    #foots2 {
+        font-size: medium;
+    }
+
+    #log {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    #cont {
+        padding-top: 20%;
+        padding-left: 10px;
+    }
+
+    #rights,
+    #soft {
+        font-size: large;
+    }
+    #lal{
+        margin-top: 0;
+        width:150px;
+        height:auto;
+    }
+    #bg6 {
+        background-size: cover, cover;
+        background-position: top, top;
+        width: auto;
+        height: auto;
+    }
+    
+}
+
+
