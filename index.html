@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaL Care 🏥</title>
+    <link rel="icon" type="png" href="./assets/images/logos.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="./assets/css/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section class="all">
+        <nav class="navbar navbar-light bg-light" id="white">
+            <div class="container">
+                <a class="navbar-brand d-flex flex-column flex-md-row align-items-center" href="#">
+                    <img src="./assets/images/icons.png" alt="Logo" class="img-fluid" id="nav">
+                    <div class="dum d-flex mt-2 mt-md-1 ms-md-5 align-items-center flex-wrap" id="left">
+                        <div class="d-flex align-items-center me-md-3 mb-2 mb-md-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25"  height="25" fill="black" class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58z"/>
+                            </svg>
+                            <div class="ms-2">
+                                <span class="font-size d-block">78459 14795</span>
+                                <span class="font-size d-block">0431 4514795</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mt-3 mt-md-0 ms-2" id="left1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                            </svg>
+                            <div class="ms-2 ">
+                                <span class="font-size d-block">Opening hours</span>
+                                <span class="font-size d-block">Mon - Sun: 10am - 9pm</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dum ms-5">
+                        <button type="button" class="btn btn-primary btn-xl ms-5" onclick="signupin()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+                                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                <path d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4"/>
+                            </svg>
+                           <b> Sign Up  /  </b>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill-check" viewBox="0 0 16 16">
+                                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                <path d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4"/>
+                            </svg>
+                           <b>  Sign In</b>
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </nav>   
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-evenly">
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" aria-current="page" href="#bg"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#bg2"><b>Service</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#bg3"><b>Why Choose Us</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#bg4"><b>About Us</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#us"><b>Contact Us</b></a>
+                        </li>
+                        <li class="nav-item bg-primary rounded">
+                            <a class="nav-link text-white" href="//wa.me/6383151973?text=Hey!%20How's%10it%10going?%20Feeling%20any%20better?" target="_blank"><b>Book An Appointment</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="all">
+        <div class="container-fluid" id="bg">
+            <div class="row d-flex flex-column flex-lg-row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start pt-5 ps-lg-5" id="top">
+                    <p class="size">Best Medical Clinic</p>
+                    <p class="size1"><b><span id="blu1">Bringing Health </span> To Life For The Whole Family...</b></p>
+                    <div class="d-flex justify-content-center mt-5">
+                        <a href="//wa.me/6383151973?text=Hey!%20How's%10it%10going?%20Feeling%20any%20better?" target="_blank" id="btn" class="btn btn-primary btn-xl w-75 w-md-50">
+                            <span style="font-size: xx-large; font-weight: bold;">Book An Appointment</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="./assets/images/single.png" class="single img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pt-5" id="bg1">
+            <h1 id="thiru">நோய்நாடி நோய்முதல் நாடி அதுதணிக்கும் <br> வாய்நாடி வாய்ப்பச் செயல்.</h1>
+            <h1 id="thiru1">-திருவள்ளுவர்</h1>
+        </div>
+    </section>
+
+    <section class="all">
+        <div class="container-fluid pt-5 pb-5" id="bg2">
+            <h1 class="dum pt-5 text-center" id="our"><b>OUR SERVICES</b></h1>
+            <h2 class="dum pt-2 text-center" id="our1">Our Special Services for You</h2>
+            <div class="dum d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center mb-4">
+                        <img src="./assets/images/check.jpg" id="check" class="img-fluid">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center mb-4">
+                        <img src="./assets/images/blood.jpg" id="blood" class="img-fluid">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center mb-4">
+                        <img src="./assets/images/fracture.jpg" id="fracture" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="all">
+        <div class="container-fluid mt-5" id="bg3">
+            <p class="dum text-center text-white pt-5" id="choose"><b>Why Choose Us</b></p>
+            <p class="dum text-center" id="choose1"><b>At Lal Care Clinic, we are dedicated to delivering the best healthcare <br> services with compassion and expertise. Here’s why you can trust us <br> for your health needs</b></p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mb-3" id="card">
+                            <div class="card-body">
+                                <h4 class="dum text-center"><b>Experienced Team</b></h4>
+                                <p class="dum text-center"><b>Our doctors, physiotherapists, and healthcare professionals are highly
+                                    qualified and experienced, ensuring you receive accurate diagnosis and
+                                    effective treatment.</b></p>
+                            </div>
+                        </div>
+                        <div class="card mb-3" id="card">
+                            <div class="card-body">
+                                <h4 class="dum text-center"><b>Personalized Care</b></h4>
+                                <p class="dum text-center"><b>Every patient is unique, and so is our approach. We provide tailored
+                                    treatments and consultations to meet your specific health needs.</b></p>
+                            </div>
+                        </div>
+                        <div class="card mb-3" id="card">
+                            <div class="card-body">
+                                <h4 class="dum text-center"><b>Convenient Access</b></h4>
+                                <p class="dum text-center"><b>Located in a prime area, Lal Care Clinic is easy to reach, and our friendly
+                                    staff ensures a hassle-free experience.</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mb-3" id="card">
+                            <div class="card-body">
+                                <h4 class="dum text-center"><b>Comprehensive Services</b></h4>
+                                <p class="dum text-center"><b>We offer multiple healthcare services under one roof, including
+                                    general medicine, pharmacy, blood tests, ECG, and physiotherapy,
+                                    saving you time and effort.</b></p>
+                            </div>
+                        </div>
+                        <div class="card mb-3" id="card">
+                            <div class="card-body">
+                                <h4 class="dum text-center"><b>Modern Facilities</b></h4>
+                                <p class="dum text-center"><b>With advanced medical equipment and state-of-the-art facilities, we
+                                    ensure accurate tests, quick results, and top-quality care.</b></p>
+                            </div>
+                        </div>
+                        <div class="card mb-3" id="card">
+                            <div class="card-body">
+                                <h4 class="dum text-center"><b>Personalized Care</b></h4>
+                                <p class="dum text-center"><b>We provide premium healthcare services at prices that are accessible
+                                    to everyone.</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="all">
+        <div class="container-fluid pt-5" id="bg4">
+            <p class="dum text-center" id="about">ABOUT US</p>
+            <div class="row col-xl-12 pt-4">
+                <div class="col-xl-4 col-lg-2 col-md-4 col-sm-6">
+                    <img src="./assets/images/about.png" id="aboutimg">
+                </div>
+                <div class="col-xl-8 col-lg-4 col-md-6 col-sm-12">
+                    <p class="dum text-center" id="abouttxt"><b>Welcome to Lal Care - Best Care Health, your Trusted partner in health and well- <br> being. At Lal Care, we are committed to providing exceptional healthcrare and services <br>
+                    tailored to the unique needs of every individual.</b></p>
+                    <br>
+                    <p class="dum text-center" id="abouttxt"><b>Our clinic is built on a foundation of compassion, innovation, and excellence. With a <br> team of skilled healthcare professionals and state-of-the-art facilities, we aim to <br> deliver top-notch medical care in a warm and welcoming environment</b></p>
+                    <div class="d-flex justify-content-center mt-5">
+                        <a href="//wa.me/6383151973?text=Hey!%20How's%10it%10going?%20Feeling%20any%20better?" target="_blank" id="btn1" class="btn btn-primary btn-xl w-75 w-md-50">
+                            <span style="font-size:medium; font-weight: bold;">Book An Appointment</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="all">
+        <div class="container-fluid pt-5" id="us">
+            <div class="row col-xl-12">
+                <div class="col-xl-6 pt-5 " id="grid1">
+                    <div class="dum d-flex">
+                        <div class="dum pt-5 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                            </svg>
+                            <span class="dum text-white" id="nums"><b>CONTACT US</b></span>
+                        </div>
+                        <div class="dum ps-3 pt-5">
+                            <span class="dum text-black" id="nums1">78459 14795</span><br>
+                            <span class="dum text-black" id="nums1">7010000120</span><br>
+                            <span class="dum text-black" id="nums1">0431 4514795</span>
+                        </div> 
+                    </div>
+                    <div class="dum pt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                        </svg>
+                        <span class="dum text-white" id="nums"><b>OPENING HOURS</b></span>
+                    </div>
+                    <div class="dum ps-3 pt-5">
+                        <span class="dum text-black" id="nums2">Mon - Sun : 10am - 09pm</span><br>
+                    </div>
+                </div>
+                <div class="col-xl-6 pt-5" style="width: 50%;" id="grid2">
+                    <p class="dum text-center" id="touch1"><b>Get in Touch</b></p>
+                    <p class="dum text-center"><b>Fill in the form below.Will get in touch with you at the earliest</b></p>
+                    <div class="row ">
+                        <div class="col-xl-6">
+                            <label for="inputEmail4" class="form-label" id="forms"><b>First Name*</b></label>
+                            <input type="text" class="form-control text-black" placeholder="First Name" id="fname" required>
+                        </div>
+                        <div class="col-xl-6">
+                            <label for="inputEmail4" class="form-label" id="forms"><b>Last Name*</b></label>
+                            <input type="text" class="form-control text-black" placeholder="Last Name" id="lname" required>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-xl-6">
+                            <label for="inputEmail4" class="form-label" id="forms"><b>E-mail*</b></label>
+                            <input type="email" class="form-control text-black" placeholder="E-mail" id="email" required>
+                        </div>
+                        <div class="col-xl-6">
+                            <label for="inputEmail4" class="form-label" id="forms"><b>Phone*</b></label>
+                            <input type="tel" class="form-control text-black" placeholder="Phone" id="phone" required>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-xl-12">
+                            <label for="inputAddress" class="form-label" id="forms"><b>Address</b></label>
+                            <textarea class="form-control text-black"  id="address"  placeholder="Comments...(optioanl)"></textarea>
+                        </div>                  
+                    </div>
+                    <button type="button" id="btns" class="btn btn-danger btn-xl" onclick="sendWhatsApp()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="all">
+        <div class="container-fluid pt-5" id="bg5">
+            <div class="container pt-5" id="border">
+                <div>
+                    <div class="dum d-flex justify-content-center">
+                        <button type="button" id="bttn" class="btn btn-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-crosshair2" viewBox="0 0 16 16">
+                                <path d="M8 0a.5.5 0 0 1 .5.5v.518A7 7 0 0 1 14.982 7.5h.518a.5.5 0 0 1 0 1h-.518A7 7 0 0 1 8.5 14.982v.518a.5.5 0 0 1-1 0v-.518A7 7 0 0 1 1.018 8.5H.5a.5.5 0 0 1 0-1h.518A7 7 0 0 1 7.5 1.018V.5A.5.5 0 0 1 8 0m-.5 2.02A6 6 0 0 0 2.02 7.5h1.005A5 5 0 0 1 7.5 3.025zm1 1.005A5 5 0 0 1 12.975 7.5h1.005A6 6 0 0 0 8.5 2.02zM12.975 8.5A5 5 0 0 1 8.5 12.975v1.005a6 6 0 0 0 5.48-5.48zM7.5 12.975A5 5 0 0 1 3.025 8.5H2.02a6 6 0 0 0 5.48 5.48zM10 8a2 2 0 1 0-4 0 2 2 0 0 0 4 0"/>
+                              </svg>
+                              <span class="dum text-white ps-2" id="mission">Our Mission</span>
+                        </button>
+                    </div>
+                    <p class="dum text-center pt-3" id="mission1">Providing qality patient care with patient safety in an unparalleled passion and <br> commitment to assure to very best healthcare service for those we serve</p>
+                </div>
+                <div class="dum pt-3 pb-2">
+                    <div class="dum d-flex justify-content-center">
+                        <button type="button" id="bttn" class="btn btn-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                            </svg>
+                            <span class="dum text-white ps-2" id="mission">Our Vision</span>
+                        </button>
+                    </div>
+                    <p class="dum text-center pt-3" id="mission1">Providing qality patient care with patient safety in an unparalleled passion and <br> commitment to assure to very best healthcare service for those we serve</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pt-5">
+            <div class="row" id="bg6">
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12" id="foots">
+                    <p class="foot">Home</p>
+                    <p class="foot">Service</p>
+                    <p class="foot">Why Choose Us</p>
+                    <p class="foot">About Us</p>
+                    <p class="foot">Contact Us</p>
+                    <p class="foot">Book An Appointment</p>
+                </div>
+                <div class="col-xl-6 col-lg-4 col-md-4 col-sm-12" id="log">
+                    <div class="dum d-flex">
+                        <img src="./assets/images/logos.png" width="150px" height="150px" id="foots1" alt="Logo">
+                        <img src="./assets/images/text.png"  id="lal" alt="Logo">
+                    </div>
+                    <p id="foots2">
+                        <b>
+                            Our friendly and caring staff ensures you feel comfortable and supported throughout your visit.
+                            With general medicine, blood tests, ECG, and physiotherapy, we provide the best care for you and your family.
+                        </b>
+                    </p>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12" id="cont">
+                    <div class="dum pt-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        <span>Raja street, Subramaniyapuram, Trichy</span>
+                    </div>
+                    <div class="dum pt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                        </svg>
+                        <span>softnova@example.com</span>
+                    </div>
+                    <div class="dum pt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58z"/>
+                        </svg>
+                        <span>78459 14795</span>
+                    </div>
+                </div>
+                <div class="row d-flex pt-4">
+                    <div class="col-xl-6">
+                        <p id="rights"><b>CopyRight 2024 All Right Reserved</b></p>
+                    </div>
+                    <div class="col-xl-6 text-end">
+                        <p id="soft"><b>Powered By Softnova</b></p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>   
+</body>
+</html>
