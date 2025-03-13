@@ -1,53 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appointment Booking - Lal Care</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        function confirmBooking() {
+            alert("Your appointment has been successfully booked!");
+        }
+    </script>
 </head>
 <body>
-    <header>
-        <h1>Lal Care - Book an Appointment</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="doctors.html">Doctors</a>
-            <a href="booking.html">Book Appointment</a>
-        </nav>
-    </header>
-    
-    <section>
-        <h2>Schedule Your Appointment</h2>
-        <form id="bookingForm">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" required>
-            
-            <label for="email">Email</label>
-            <input type="email" id="email" required>
-            
-            <label for="doctor">Select Doctor</label>
-            <select id="doctor">
-                <option>Dr. A Sharma (Cardiologist)</option>
-                <option>Dr. B Verma (Dentist)</option>
-                <option>Dr. C Nair (Pediatrician)</option>
-            </select>
-            
-            <label for="date">Choose Date</label>
-            <input type="date" id="date" required>
-            
-            <label for="time">Choose Time</label>
-            <input type="time" id="time" required>
-            
-            <button type="submit">Book Appointment</button>
-        </form>
-        <p id="confirmation" style="color: green; display: none;">Your appointment has been booked successfully!</p>
-    </section>
-
-    <script>
-        document.getElementById("bookingForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            document.getElementById("confirmation").style.display = "block";
-        });
-    </script>
+    <h2>Book an Appointment</h2>
+    <form onsubmit="confirmBooking(); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+        <label for="doctor">Select Doctor:</label>
+        <select id="doctor">
+            <option>Dr. Smith - Cardiologist</option>
+            <option>Dr. Jane - Neurologist</option>
+            <option>Dr. Lee - Orthopedic</option>
+        </select>
+        <button type="submit">Book Appointment</button>
+    </form>
 </body>
 </html>
